@@ -36,3 +36,5 @@ plt.show()
 
 def mse(model,X,y):
     return np.mean((y - model.predict(X))**2)
+
+print("Hello")
